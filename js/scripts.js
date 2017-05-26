@@ -1,0 +1,60 @@
+$(document).ready(function() {
+  $("#submitbutton").click(function(event) {
+    var location = $("input#location").val();
+    var famousperson = $("input#famousperson").val();
+    var adjective1 = $("input#adjective1").val();
+    var sound = $("input#sound").val();
+    var animal1 = $("input#animal1").val();
+    var animal2 = $("input#animal2").val();
+    var animal3 = $("input#animal3").val();
+    var verb1 = $("input#verb1").val();
+    var typeofperson = $("input#typeofperson").val();
+    var noun = $("input#noun").val();
+    var verb2 = $("input#verb2").val();
+    var store = $("input#store").val();
+    var raceofpeople = $("input#raceofpeople").val();
+    var alrightterrible = $("input#alrightterrible").val();
+    var famouswoman = $("input#famouswoman").val();
+    var verb3 = $("input#verb3").val();
+    var groupofpeople = $("input#groupofpeople").val();
+    var place = $("input#place").val();
+    var game = $("input#game").val();
+    var setting = $("input#setting").val();
+    var edverb = $("input#edverb").val();
+    var accomplishment = $("input#accomplishment").val();
+    var pluralnoun = $("input#pluralnoun").val();
+    var unsuccessfulathlete = $("input#unsuccessfulathlete").val();
+    var adjective2 = $("input#adjective2").val();
+
+
+    $(".location").append(location);
+    $(".famousperson").append(famousperson);
+    $(".adjective1").append(adjective1);
+    $(".sound").append(sound);
+    $(".animal1").append(animal1);
+    $(".animal2").append(animal2);
+    $(".animal3").append(animal3);
+    $(".verb1").append(verb1);
+    $(".typeofperson").append(typeofperson);
+    $(".noun").append(noun);
+    $(".verb2").append(verb2);
+    $(".store").append(store);
+    $(".raceofpeople").append(raceofpeople);
+    $(".alrightterrible").append(alrightterrible);
+    $(".famouswoman").append(famouswoman);
+    $(".verb3").append(verb3);
+    $(".groupofpeople").append(groupofpeople);
+    $(".place").append(place);
+    $(".game").append(game);
+    $(".setting").append(setting);
+    $(".edverb").append(edverb);
+    $(".accomplishment").append(accomplishment);
+    $(".pluralnoun").append(pluralnoun);
+    $(".unsuccessfulathlete").append(unsuccessfulathlete);
+    $(".adjective2").append(adjective2);
+
+    $("#story").show();
+    $("#questions").hide();
+    event.preventDefault();
+  });
+});
